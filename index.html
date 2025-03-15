@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="logo">
+            <h1>Harpur Dev</h1>
+        </div>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#banner-wrapper">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+    </section>
+
+    <section class="container">
+        <div id="banner-wrapper">
+            <div class="move-asset">
+                <img src="asset/image/gif.gif" alt="">
+            </div>
+            <div id="banner">
+                <h2>Hi, Iam  <span class="auto-type"></span></h2>
+                <p>Junior Web Developer</p>
+               <button class="btn">My resume</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="about-me-wrapper">
+            <div class="card">
+                <img src="asset/image/profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-me-content">
+                <p>Hi, I'm Hari Purnomo, a Web Developer with a Computer Science background in the faculty of information systems from Mercu Buana University.
+                    Passionate about web development and problem solving, I have experience in HTML, PHP, Golang, JavaScript, and MySQL. I also master Microsoft Office for administrative needs.
+                    I love building scalable web applications and learning new technologies.
+                    Let's connect and collaborate! 🚀
+                </p>
+                <div id="my-skill">
+                    <h1>My Skill: </h1>
+                    <div class="list-skill">
+                        <ul >
+                            <li>
+                              <a href="#">
+                                <i class="fab fa-html5 icon"></i>    </a>
+                            </li>
+                            <li>
+                              <a href="#"><i class="fab fa-css3 icon"></i></a>
+                            </li>
+                            <li>
+                              <a href="#"><i class="fa-brands fa-js icon"></i></a></li>
+                            <li>
+                                <li>
+                                    <a href="#"><i class="fab fa-php icon"></i>
+                                  </a></li>
+                            <li>
+                              <a href="#"><i class="fa-brands fa-laravel icon"></i>
+                            </a></li>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-solid fa-file-word icon"></i>
+                          </a>
+                       
+                          </ul>
+                          
+                          
+                    </div>
+                    
+                </div>
+            </div>
+          
+            
+        </div>
+        
+    </section>
+
+    <section id="my-portofolio">
+        <div class="portfolio">
+            <div class="portofolio-title">
+                <h2>My Portfolio</h2>
+            </div>
+            <div id="porto-container">
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="service-container">
+            <h2 class="service-title">My Services</h2>
+            <div class="service-content">
+                <!-- Card 1 -->
+                <div class="card-service">
+                    <div class="card-service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Pembuatan Web Sederhana</h3>
+                    <p>Membangun website profesional dengan desain menarik dan fungsional.</p>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="card-service">
+                    <div class="card-service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Manajemen Database</h3>
+                    <p>Mengelola dan mengoptimalkan database untuk performa maksimal.</p>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="card-service">
+                    <div class="card-service-icon">
+                        <i class="fa-solid fa-chart-diagram"></i>                    </div>
+                    <h3>Analisis Sistem </h3>
+                    <p>Membuat Rancangan Diagram dan Analisis Sistem.</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">You Can Contact Me</h2>
+            <div class="list-contact">
+                <ul>
+                    <li>
+                        <a href="https://wa.me/6287772362124" target="_blank">
+                            <img src="asset/image/wa-icon.png" alt="WhatsApp">
+                        </a>
+                        <h5>WhatsApp</h5>
+                    </li>
+                    <li>
+                        <a href="mailto:purnomo.hari3180@gmail.com">
+                            <img src="asset/image/gmail-icon.jpg" alt="Email">
+                        </a>
+                        <h5>Email</h5>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/hari-purnomo-166861168/" target="_blank">
+                            <img src="asset/image/linkedin-icon.png" alt="LinkedIn">
+                        </a>
+                        <h5>LinkedIn</h5>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+       
+         
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <p>&copy; 2021 Hari Purnomo</p>
+        </div>
+      
+    </section>
+
+
+
+   
+
+</body>
+<script>
+    function toggleMenu() {
+        document.querySelectorAll('.menu-list li a').forEach(item => {
+    item.addEventListener('click', function () {
+        // Menghapus kelas 'active' dari semua menu
+        document.querySelectorAll('.menu-list li a').forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // Menambahkan kelas 'active' hanya ke elemen yang diklik
+        this.classList.add('active');
+    });
+ } );
+    }
+    
+
+
+</script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</html>

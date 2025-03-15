@@ -1,0 +1,44 @@
+[
+    {
+        "image": "porto.png",
+        "name": "WeShope",
+        "description": "E-commerce toko online sederhana dengan fitur keranjang belanja, pembayaran, dan filtering daerah pengiriman.",
+        "technology": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+    },
+    {
+        "image": "porto.png",
+        "name": "Todo List",
+        "description": "Aplikasi todo list dengan fitur CRUD.",
+        "technology": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "image": "porto.png",
+        "name": "Dashboard Admin E-Commerce",
+        "description": "Dashboard admin untuk mengelola data produk, data user, dan data transaksi.",
+        "technology": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "image": "porto.png",
+        "name": "Landing Page Yoi (Yeekhan Original Indonesia)",
+        "description": "Landing page single page perusahaan.",
+        "technology": ["HTML", "CSS", "Tailwind CSS", "JavaScript"]
+    },
+    {
+        "image": "porto.png",
+        "name": "CMS Admin Landing Page Sacti Taekwondo Win-Hunter",
+        "description": "Mengelola data siswa dan manajemen club Taekwondo Win-Hunter.",
+        "technology": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Go"]
+    },
+    {
+        "image": "porto.png",
+        "name": "CMS Admin Landing Page Sacti Taekwondo Win-Hunter",
+        "description": "Mengelola data siswa dan manajemen club Taekwondo Win-Hunter.",
+        "technology": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Go"]
+    },
+    {
+        "image": "porto.png",
+        "name": "CMS Admin Landing Page Sacti Taekwondo Win-Hunter",
+        "description": "Mengelola data siswa dan manajemen club Taekwondo Win-Hunter.",
+        "technology": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Go"]
+    }
+]
